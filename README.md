@@ -6,6 +6,6 @@ The repo aims to inspire anyone out there which want to build their own IT lab e
 The HomeLab use mostly Microsoft's technology both On-Premise/Cloud.
 
 ## Table of Contents 🔍
-Hardware Pre-Requisites and Installation.md
-Provisioning Virtual Machines
-Configure On-Premise 
+### Hardware Pre-Requisites and Installation  
+### Provisioning Virtual Machines  
+### Configure On-Premise  
