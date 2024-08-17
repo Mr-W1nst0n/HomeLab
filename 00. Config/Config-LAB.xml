@@ -1,0 +1,27 @@
+<Configuration>
+	<ISO>
+		<Server>
+			<ISO-2019-Path>Z:\ISO\en-us_windows_server_2019_x64_dvd_f9475476.iso</ISO-2019-Path>
+			<ISO-2022-Path>Z:\ISO\en-us_windows_server_2022_updated_oct_2023_x64_dvd_63dab61a.iso</ISO-2022-Path>
+		</Server>
+		<Client>
+			<ISO-10-Path>Z:\ISO\en-us_windows_10_business_editions_version_22h2_updated_oct_2023_x64_dvd_8fac2c2d.iso</ISO-10-Path>
+			<ISO-11-Path>Z:\ISO\en-us_windows_11_business_editions_version_22h2_updated_oct_2023_x64_dvd_e6b6f11c.iso</ISO-11-Path>
+		</Client>
+	</ISO>
+	<VMsLocationPath>C:\LAB01</VMsLocationPath>
+	<AutoPilotDisks>Z:\VHDX</AutoPilotDisks>
+	<VMsNetworkInterfaces>
+		<Internal>NATSwitch</Internal>
+		<External>LANSwitch</External>
+	</VMsNetworkInterfaces>
+    <VirtualMachines>
+        <Settings Type = "Server" Version = "2022" Name = "DCLAB01" CPU = "2" RAM = "2" OS = "120" Generation = "2" IPAddress = "10.0.10.1"/>
+        <Settings Type = "Server" Version = "2022" Name = "SVLAB01" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.2"/>
+		<Settings Type = "Server" Version = "2022" Name = "SVLAB02" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.3"/>
+		<Settings Type = "Client" Version = "10" Name = "CILAB01" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.50"/>
+		<Settings Type = "Client" Version = "10" Name = "CILAB02" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.53"/>
+		<Settings Type = "Client" Version = "10" Name = "WIN-AP-AADJ" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.51"/>
+		<Settings Type = "Client" Version = "10" Name = "WIN-AP-HAADJ" CPU = "2" RAM = "4" OS = "120" Generation = "2" IPAddress = "10.0.10.52"/>
+    </VirtualMachines>
+</Configuration>
